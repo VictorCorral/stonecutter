@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ssh -i ~/.ssh/stonecutter_dob_private_key $REMOTE_USER@$SERVER_IP <<EOF
+ssh $REMOTE_USER@$SERVER_IP <<EOF
   docker stop stonecutter || echo 'Failed to stop stonecutter container'
   docker rm stonecutter || echo 'Failed to remove stonecutter container'
   docker rmi dcent/stonecutter

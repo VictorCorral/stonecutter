@@ -4,6 +4,11 @@
 
 A D-CENT project: an easily deployable oauth server for small organisations.
 
+> **There has been an update to the deployment script `deploy_prod.sh`. If you have deployed an instance of Stonecutter
+to an Ubuntu server using Ansible, you will need to rerun the last two steps of the deployment:
+[Configure with ansible](https://github.com/d-cent/stonecutter/blob/master/docs/UBUNTU.md#configure-with-ansible) and
+[Deploy application to the server](https://github.com/d-cent/stonecutter/blob/master/docs/UBUNTU.md#deploy-application-to-the-server).**
+
 ## Development VM
 
 You can develop and run the application in a VM to ensure that the correct versions of Stonecutter's dependencies
